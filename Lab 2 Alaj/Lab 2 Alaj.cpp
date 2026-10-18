@@ -2,10 +2,109 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
+/* zad.9
+   int n;
+   cout << "podaj n";
+   cin >> n;
+   if (n == 0)
+   {
+       cout << "n nie moze byc rowne 0";
+   }
+   for (int i = 0;i <= 100;i++)
+   {
+       if (i % n == 0)
+           cout << i << endl;
+   }
+   int n,x;
+   cout << "podaj n";
+   cin >> n;
+
+   for (int i = 0;i <= 100;i++)
+   {
+       if (i % n == 0)
+           x++;
+   }
+   cout << "liczba liczb podzielnych przez 0:" << x << endl;
+
 {
-    std::cout << "Hello World!\n";
+   int a, b;
+
+   cout << "Podaj a: ";
+   cin >> a;
+
+   cout << "Podaj b: ";
+   cin >> b;
+
+   if (a < b)
+   {
+    for (int i = a; i <= b; i++)
+    {
+    if (i % 3 == 0)
+    {
+      cout << i << " ";
+    }
+    }
+   }
+   else
+   {
+    for (int i = b; i <= a; i++)
+    {
+        if (i % 3 == 0)
+        {
+            cout << i << " ";
+        }
+    }
+   }
+
+
+}
+    int n;
+     double liczba, suma = 0, srednia;
+{
+    cout << "Podaj liczbe n : ";
+    cin >> n;
+
+
+
+    for (int i = 1; i <= n; i++)
+    {
+        cout << "Podaj liczbe : ";
+        cin >> liczba;
+        suma += liczba;
+    }
+
+    srednia = suma / n;
+
+    cout << "Srednia arytmetyczna wynosi : " << srednia;
+}
+
+{
+    for (int i = 100; i >= 0; i--)
+    {
+        cout << i << endl;
+    }
+}*/
+{
+    int a, b, c;
+
+    cout << "Podaj trzy liczby calkowite: ";
+    cin >> a >> b >> c;
+
+    int najmniejsza = a;
+
+    if (b < najmniejsza) 
+    {
+        najmniejsza = b;
+    }
+
+    if (c < najmniejsza) 
+    {
+        najmniejsza = c;
+    }
+
+    cout << "Najmniejsza liczba to: " << najmniejsza;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
